@@ -22,6 +22,35 @@
     "@aws-cdk/cx-api" "1.46.0"
     constructs "^3.0.2"
 
+"@aws-cdk/aws-apigateway@^1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigateway/-/aws-apigateway-1.46.0.tgz#f4839b9911bcd95bcd5063a9a961de0d58e17cd8"
+  integrity sha512-ih2DnNJKRdHb5D+s+XHF1fCjEoMTrasT1Ki+nmH9EXkF957iwIjQo8skPgzlEm8+Ljo7Cj9d1hx7gMTk+3Kt1w==
+  dependencies:
+    "@aws-cdk/assets" "1.46.0"
+    "@aws-cdk/aws-certificatemanager" "1.46.0"
+    "@aws-cdk/aws-ec2" "1.46.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.46.0"
+    "@aws-cdk/aws-iam" "1.46.0"
+    "@aws-cdk/aws-lambda" "1.46.0"
+    "@aws-cdk/aws-logs" "1.46.0"
+    "@aws-cdk/aws-s3" "1.46.0"
+    "@aws-cdk/aws-s3-assets" "1.46.0"
+    "@aws-cdk/core" "1.46.0"
+    "@aws-cdk/cx-api" "1.46.0"
+    constructs "^3.0.2"
+
+"@aws-cdk/aws-certificatemanager@1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.46.0.tgz#83b02aed305a78a4fbc8b9b516fef1ef424d8fe2"
+  integrity sha512-hPPX439EXE0tIThMFArNtgUoEbh0tIg6NMmyw+zm6IKQTKj14EQU3bt0BtDFiNsNmNdoDRmu0knk4dZiDKm2gQ==
+  dependencies:
+    "@aws-cdk/aws-iam" "1.46.0"
+    "@aws-cdk/aws-lambda" "1.46.0"
+    "@aws-cdk/aws-route53" "1.46.0"
+    "@aws-cdk/core" "1.46.0"
+    constructs "^3.0.2"
+
 "@aws-cdk/aws-cloudwatch@1.46.0":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudwatch/-/aws-cloudwatch-1.46.0.tgz#9054d9b9904c485ab82667ad17f673d17f1a047c"
@@ -45,6 +74,20 @@
     "@aws-cdk/core" "1.46.0"
     "@aws-cdk/cx-api" "1.46.0"
     "@aws-cdk/region-info" "1.46.0"
+    constructs "^3.0.2"
+
+"@aws-cdk/aws-elasticloadbalancingv2@1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.46.0.tgz#e17cefcb2b3fcda5c56c6a152956acb6ec2b764d"
+  integrity sha512-bHS1h12E5NFf1cBbKGgKKXLg2OM8M9NZKyYukFeGfWZOuGwtEsVOKmQTWIy20mLI4UDnl0whR7ZEW+gMRI1/dA==
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.46.0"
+    "@aws-cdk/aws-cloudwatch" "1.46.0"
+    "@aws-cdk/aws-ec2" "1.46.0"
+    "@aws-cdk/aws-iam" "1.46.0"
+    "@aws-cdk/aws-lambda" "1.46.0"
+    "@aws-cdk/aws-s3" "1.46.0"
+    "@aws-cdk/core" "1.46.0"
     constructs "^3.0.2"
 
 "@aws-cdk/aws-events@1.46.0":
@@ -98,6 +141,17 @@
   dependencies:
     "@aws-cdk/aws-cloudwatch" "1.46.0"
     "@aws-cdk/aws-iam" "1.46.0"
+    "@aws-cdk/core" "1.46.0"
+    constructs "^3.0.2"
+
+"@aws-cdk/aws-route53@1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-route53/-/aws-route53-1.46.0.tgz#0d43441888e95878bc5c2d272c88c11e9aa9c648"
+  integrity sha512-YYc7sxCCf0V7Ma478dHJk2+0DmOJa9wgURdKku4cMm3G4qQmRZ2GG+z6Hsf8DBLa6wg73fHxarQGTFqBSAmnHg==
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.46.0"
+    "@aws-cdk/aws-logs" "1.46.0"
+    "@aws-cdk/cloud-assembly-schema" "1.46.0"
     "@aws-cdk/core" "1.46.0"
     constructs "^3.0.2"
 
