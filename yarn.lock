@@ -22,7 +22,7 @@
     "@aws-cdk/cx-api" "1.46.0"
     constructs "^3.0.2"
 
-"@aws-cdk/aws-apigateway@^1.46.0":
+"@aws-cdk/aws-apigateway@^1.20.0", "@aws-cdk/aws-apigateway@^1.46.0":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigateway/-/aws-apigateway-1.46.0.tgz#f4839b9911bcd95bcd5063a9a961de0d58e17cd8"
   integrity sha512-ih2DnNJKRdHb5D+s+XHF1fCjEoMTrasT1Ki+nmH9EXkF957iwIjQo8skPgzlEm8+Ljo7Cj9d1hx7gMTk+3Kt1w==
@@ -93,7 +93,7 @@
     "@aws-cdk/core" "1.46.0"
     constructs "^3.0.2"
 
-"@aws-cdk/aws-dynamodb@^1.46.0":
+"@aws-cdk/aws-dynamodb@^1.20.0", "@aws-cdk/aws-dynamodb@^1.46.0":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-dynamodb/-/aws-dynamodb-1.46.0.tgz#91c19678b19b67a1fd3a98b77080567ec0e8e992"
   integrity sha512-jFGANrAHrMMKqYn63DEX4acAz7194yYgiCKkBG8YtXUkvzo/ioSC1wMTRs5W9jEj1vrLz09o6U0hs1a1Snm9Rw==
@@ -164,7 +164,7 @@
     "@aws-cdk/core" "1.46.0"
     constructs "^3.0.2"
 
-"@aws-cdk/aws-lambda@1.46.0", "@aws-cdk/aws-lambda@^1.46.0":
+"@aws-cdk/aws-lambda@1.46.0", "@aws-cdk/aws-lambda@^1.20.0", "@aws-cdk/aws-lambda@^1.46.0":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-lambda/-/aws-lambda-1.46.0.tgz#2b3b0b3aa41e646b663be2c5955b5b0e10a22b4f"
   integrity sha512-REgRPPbJt/UD7n2fRbpJHK17fMDA0PED+gCvlctEw2chIUsJx601FDHG74vVKtm0R7UEM2svADzNm2Tv5YnVTw==
@@ -307,7 +307,7 @@
     string-width "^4.2.0"
     table "^5.4.6"
 
-"@aws-cdk/core@1.46.0":
+"@aws-cdk/core@1.46.0", "@aws-cdk/core@^1.20.0":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.46.0.tgz#cdc5ac54a7aafd6b5f304e203e191968add3c627"
   integrity sha512-PqK0fmt28ExMNXJiAdZU3A0jQeynd3Set+P86Tx9p2t7tI92oArh9lhuBGhoZ0sTjTUD0/ZqX4dYnH7JcFYUAg==
@@ -1426,6 +1426,16 @@ cdk-assets@1.46.0:
     aws-sdk "^2.699.0"
     glob "^7.1.6"
     yargs "^15.3.1"
+
+cdk-dynamo-table-viewer@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/cdk-dynamo-table-viewer/-/cdk-dynamo-table-viewer-3.1.2.tgz#82ebcd337591e548d1a384e73ecfe713e408e7a3"
+  integrity sha512-BPJqYj/CFOE02ZPx3bdxj/yAvAPH0TJHPinJGGX1hUtO7x5pgI7z4svnSsyfCz8UazMTKQJLXh7Rb2aXgBAuJQ==
+  dependencies:
+    "@aws-cdk/aws-apigateway" "^1.20.0"
+    "@aws-cdk/aws-dynamodb" "^1.20.0"
+    "@aws-cdk/aws-lambda" "^1.20.0"
+    "@aws-cdk/core" "^1.20.0"
 
 chalk@^2.0.0:
   version "2.4.2"
